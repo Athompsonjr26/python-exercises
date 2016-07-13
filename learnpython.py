@@ -1,23 +1,20 @@
-print "I will now count my chickens:"
+x = "There are %d types of people." % 10
+binary = "binary"
+do_not = "don't"
+y = "Those who know %s and those who %s." % (binary, do_not)
 
-print "Hens" , 25 + 30 / 6
-print "Roosters" , 100 - 25 * 3 % 4
+print x
+print y
 
-print "Now I will count the eggs:"
+print "I said: %r." % x
+print "I also said: '%s'." % y
 
-print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
 
-print "Is it true that 3 + 2 < 5 - 7?"
+print joke_evaluation % hilarious
 
-print "Is it true that 3 + 2 < 5 - 7?"
+w = "This is the left side of..."
+e = "a string with a right side."
 
-print 3 + 2 < 5 - 7
-
-print "What is 3 + 2 ?", 3 + 2
-print "What is 5 -7?", 5 - 7
-
-print "Oh, that's why it's False."
-
-print "How about some more."
-
-print "Is it greater or equal?", 5 >= -2
+print w + e
